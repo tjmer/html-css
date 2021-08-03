@@ -1,0 +1,80 @@
+body{
+    margin: 20px;
+}
+
+header {
+    width: 1400px;
+    height: 220px;
+    border: 5px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.smallBox{
+    height: 150px;
+    width: 50px;
+    background-color: purple;
+    margin-left: 25px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.bigBox {
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.dottedBorder {
+    width: 1400px;
+    height: 200px;
+    border: 5px dotted black;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.shadowBox {
+    width: 1370px;
+    height: 200px;
+    display: inline-block;
+    background-color: rgb(235, 228, 210);
+    box-shadow: 10px 10px 10px rgb(75, 71, 71);
+}
+
+.wordBox{
+    height: 150px;
+    width: 300px;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.words{
+    color: rgb(8, 8, 97);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.top {
+    margin-left: 10px;
+}
+
+p {
+    margin: 2px;
+}
